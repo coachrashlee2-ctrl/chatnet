@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LimoChat - Get Paid to Chat</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+@keyframes slideUpFade {
+    0% {opacity:0; transform:translateY(10px)}
+    15%,85% {opacity:1; transform:translateY(0)}
+    100% {opacity:0; transform:translateY(-10px)}
+}
+
+.floating-payout {
+    animation:slideUpFade 4s ease-in-out infinite;
+}
+
+.profile-card {
+    transition:transform .2s ease,box-shadow .2s ease;
+}
+
+.profile-card:hover {
+    transform:translateY(-4px);
+}
+</style>
+</head>
+
+<body class="bg-slate-50 text-slate-800 font-sans antialiased pb-20">
+
+<!-- HEADER -->
+<header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+<div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+
+    <!-- LIMОCHAT LOGO -->
+    <a href="#" class="flex items-center gap-2">
+
+        <svg width="45" height="45" viewBox="0 0 100 100" fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+
+            <rect width="100" height="100" rx="25" fill="#059669"/>
+
+            <path d="M25 23H43V66H76V81H25V23Z" fill="white"/>
+
+            <circle cx="70" cy="29" r="10" fill="#6EE7B7"/>
+
+            <path d="M59 37L73 23" stroke="white"
+                  stroke-width="5" stroke-linecap="round"/>
+
+        </svg>
+
+        <span class="text-2xl font-extrabold tracking-tight text-slate-900">
+            Limo<span class="text-emerald-600">Chat</span>
+        </span>
+
+    </a>
+
+    <div class="flex items-center gap-3">
+
+        <div class="hidden sm:flex items-center bg-emerald-50 text-emerald-700 px-3 py-1 rounded-full text-xs font-semibold">
+            <span class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse mr-2"></span>
+            Live Online
+        </div>
+
+        <a href="https://mulaearn.com/register.php?ref=NjoshDigital14"
+           class="bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold px-4 py-2 rounded-lg">
+            Start Earning
+        </a>
+
+    </div>
+</div>
+</header>
+
+
+<!-- HERO SECTION -->
+<section class="bg-gradient-to-b from-slate-900 via-emerald-950 to-slate-900 text-white py-16 px-4 text-center">
+
+<div class="max-w-3xl mx-auto">
+
+    <div class="inline-flex items-center gap-2 bg-emerald-900/60 text-emerald-200 px-4 py-2 rounded-full text-xs mb-6">
+        <i class="fa-solid fa-shield-halved text-emerald-400"></i>
+        Chat Opportunities • M-Pesa, MoMo & Bank Payouts
+    </div>
+
+    <h1 class="text-4xl sm:text-5xl font-extrabold mb-6 leading-tight">
+        Get Paid to Chat with
+        <span class="text-emerald-400 underline decoration-emerald-500">
+            Lonely Foreigners
+        </span>
+    </h1>
+
+    <p class="text-slate-300 text-base sm:text-lg mb-8 max-w-2xl mx-auto">
+        Turn your free time into real cash. Chat at your own pace from Nairobi, Lagos, Accra, or anywhere in Africa.
+    </p>
+
+    <div class="flex flex-col sm:flex-row justify-center gap-4">
+
+        <a href="https://mulaearn.com/register.php?ref=NjoshDigital14"
+           class="bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold px-8 py-4 rounded-xl shadow-lg">
+            Start Chat & Earn <i class="fa-solid fa-arrow-right ml-2"></i>
+        </a>
+
+        <a href="https://wa.me/message/OIP4DDGWNAVTO1"
+           target="_blank" rel="noopener noreferrer"
+           class="bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-4 rounded-xl border border-white/25">
+
+            <i class="fa-brands fa-whatsapp text-emerald-400 mr-2"></i>
+            WhatsApp us for guidance
+
+        </a>
+
+    </div>
+</div>
+</section>
+
+
+<!-- HOW IT WORKS -->
+<section class="max-w-6xl mx-auto px-4 py-16">
+
+<div class="text-center mb-12">
+
+    <span class="text-emerald-600 font-semibold text-xs uppercase bg-emerald-50 px-3 py-2 rounded-full">
+        How It Works
+    </span>
+
+    <h2 class="text-3xl font-extrabold text-slate-900 mt-4 mb-3">
+        How You Get Paid on LimoChat
+    </h2>
+
+    <p class="text-slate-600">
+        Follow these simple steps to explore chat opportunities.
+    </p>
+
+</div>
+
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+
+    <div class="bg-white p-6 rounded-2xl border shadow-sm text-center">
+        <div class="w-12 h-12 bg-emerald-100 text-emerald-700 font-bold rounded-xl flex items-center justify-center mx-auto mb-4">1</div>
+        <h3 class="font-bold text-lg mb-2">Create an Account</h3>
+        <p class="text-slate-600 text-sm">Register your details through the registration portal.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl border shadow-sm text-center">
+        <div class="w-12 h-12 bg-emerald-100 text-emerald-700 font-bold rounded-xl flex items-center justify-center mx-auto mb-4">2</div>
+        <h3 class="font-bold text-lg mb-2">Connect & Chat</h3>
+        <p class="text-slate-600 text-sm">Explore available profiles and engage in conversations.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl border shadow-sm text-center">
+        <div class="w-12 h-12 bg-emerald-100 text-emerald-700 font-bold rounded-xl flex items-center justify-center mx-auto mb-4">3</div>
+        <h3 class="font-bold text-lg mb-2">Cash Out</h3>
+        <p class="text-slate-600 text-sm">Withdraw earnings through supported payment methods.</p>
+    </div>
+
+</div>
+
+
+<!-- BENEFITS PANEL -->
+<div class="bg-emerald-900 text-white rounded-3xl p-8 sm:p-12">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+
+        <div>
+            <h3 class="text-3xl font-bold mb-5">
+                Why Choose LimoChat?
+            </h3>
+
+            <ul class="space-y-4 text-slate-200 text-sm">
+
+                <li><i class="fa-solid fa-circle-check text-emerald-400 mr-2"></i> Work from your smartphone</li>
+                <li><i class="fa-solid fa-circle-check text-emerald-400 mr-2"></i> Flexible working schedule</li>
+                <li><i class="fa-solid fa-circle-check text-emerald-400 mr-2"></i> Supported payment methods</li>
+                <li><i class="fa-solid fa-circle-check text-emerald-400 mr-2"></i> WhatsApp assistance</li>
+
+            </ul>
+        </div>
+
+        <div class="bg-white/10 p-7 rounded-2xl text-center">
+
+            <h4 class="text-xl font-bold mb-3">
+                Ready to Get Started?
+            </h4>
+
+            <p class="text-slate-300 text-sm mb-6">
+                Explore the registration process today.
+            </p>
+
+            <a href="https://mulaearn.com/register.php?ref=NjoshDigital14"
+               class="inline-block bg-emerald-500 text-slate-950 font-bold px-8 py-3 rounded-xl">
+                Create Account
+            </a>
+
+        </div>
+
+    </div>
+</div>
+
+</section>
+
+
+<!-- LIVE FOREIGNERS -->
+<main class="max-w-6xl mx-auto px-4 py-12">
+
+<div class="text-center mb-10">
+
+    <h2 class="text-3xl font-bold text-slate-900 mb-2">
+        💬 Live Foreigners Online
+    </h2>
+
+    <p class="text-slate-600 text-sm">
+        Explore international profiles.
+    </p>
+
+</div>
+
+<div id="profile-grid"
+     class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+</div>
+
+</main>
+
+
+<!-- PLATFORM FEATURES -->
+<section class="max-w-6xl mx-auto px-4 pb-12">
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+
+    <div class="bg-white p-6 rounded-2xl border shadow-sm text-center">
+        <i class="fa-solid fa-shield-halved text-3xl text-emerald-600 mb-3"></i>
+        <h3 class="font-bold">Safe & Secure</h3>
+        <p class="text-sm text-slate-600 mt-2">Secure account practices.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl border shadow-sm text-center">
+        <i class="fa-solid fa-bolt text-3xl text-emerald-600 mb-3"></i>
+        <h3 class="font-bold">Payout Options</h3>
+        <p class="text-sm text-slate-600 mt-2">Supported payment methods.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl border shadow-sm text-center">
+        <i class="fa-solid fa-headset text-3xl text-emerald-600 mb-3"></i>
+        <h3 class="font-bold">Support</h3>
+        <p class="text-sm text-slate-600 mt-2">Assistance when needed.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl border shadow-sm text-center">
+        <i class="fa-solid fa-users text-3xl text-emerald-600 mb-3"></i>
+        <h3 class="font-bold">Community</h3>
+        <p class="text-sm text-slate-600 mt-2">Explore opportunities.</p>
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="bg-slate-900 text-slate-400 py-12 px-4 text-center">
+
+<div class="max-w-2xl mx-auto">
+
+    <!-- FOOTER LOGO -->
+    <div class="flex items-center justify-center gap-2 mb-5">
+
+        <svg width="38" height="38" viewBox="0 0 100 100" fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+
+            <rect width="100" height="100" rx="25" fill="#059669"/>
+            <path d="M25 23H43V66H76V81H25V23Z" fill="white"/>
+            <circle cx="70" cy="29" r="10" fill="#6EE7B7"/>
+            <path d="M59 37L73 23" stroke="white" stroke-width="5" stroke-linecap="round"/>
+
+        </svg>
+
+        <span class="text-2xl font-extrabold text-white">
+            Limo<span class="text-emerald-400">Chat</span>
+        </span>
+
+    </div>
+
+    <h3 class="text-white text-xl font-bold mb-3">
+        Ready to Join LimoChat?
+    </h3>
+
+    <p class="text-sm mb-6">
+        Explore the available opportunities and get started.
+    </p>
+
+    <a href="https://mulaearn.com/register.php?ref=NjoshDigital14"
+       class="inline-block bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-extrabold px-8 py-4 rounded-xl mb-8">
+        Register Today 🚀
+    </a>
+
+    <div class="border-t border-slate-800 pt-6 text-xs text-slate-500">
+        &copy; 2026 LimoChat. All rights reserved.
+    </div>
+
+</div>
+
+</footer>
+
+
+<!-- FLOATING LIVE PAYOUT NOTICE -->
+<div class="fixed bottom-4 left-4 z-50 pointer-events-none">
+
+<div class="floating-payout bg-slate-900/95 text-white border border-emerald-500/40 px-4 py-3 rounded-xl shadow-2xl flex items-center gap-3 text-xs sm:text-sm">
+
+    <div class="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center">
+        <i class="fa-solid fa-money-bill-transfer"></i>
+    </div>
+
+    <div>
+        <p id="ticker-text" class="font-medium text-slate-200">
+            Loading recent payouts...
+        </p>
+
+        <span id="ticker-time" class="text-[10px] text-emerald-400 font-semibold">
+            Just now via M-Pesa / MoMo / Bank
+        </span>
+    </div>
+
+</div>
+</div>
+
+
+<!-- JAVASCRIPT -->
+<script>
+
+const registrationLink =
+"https://mulaearn.com/register.php?ref=NjoshDigital14";
+
+const profiles = [
+
+{
+name:"Margaret W.",
+country:"USA",
+age:58,
+flag:"🇺🇸",
+image:"https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80",
+status:"typing..."
+},
+
+{
+name:"Robert H.",
+country:"UK",
+age:62,
+flag:"🇬🇧",
+image:"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80",
+status:"online"
+},
+
+{
+name:"Helga S.",
+country:"Germany",
+age:55,
+flag:"🇩🇪",
+image:"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&auto=format&fit=crop&q=80",
+status:"typing..."
+},
+
+{
+name:"James M.",
+country:"Canada",
+age:64,
+flag:"🇨🇦",
+image:"https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&auto=format&fit=crop&q=80",
+status:"Looking to talk"
+},
+
+{
+name:"Claire D.",
+country:"France",
+age:49,
+flag:"🇫🇷",
+image:"https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
+status:"online"
+},
+
+{
+name:"Lars B.",
+country:"Norway",
+age:57,
+flag:"🇳🇴",
+image:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
+status:"typing..."
+},
+
+{
+name:"Elena R.",
+country:"Italy",
+age:51,
+flag:"🇮🇹",
+image:"https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&auto=format&fit=crop&q=80",
+status:"Looking to talk"
+},
+
+{
+name:"Arthur P.",
+country:"Australia",
+age:60,
+flag:"🇦🇺",
+image:"https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&auto=format&fit=crop&q=80",
+status:"online"
+},
+
+{
+name:"Sophia L.",
+country:"Spain",
+age:46,
+flag:"🇪🇸",
+image:"https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=300&auto=format&fit=crop&q=80",
+status:"typing..."
+},
+
+{
+name:"Daniel R.",
+country:"USA",
+age:53,
+flag:"🇺🇸",
+image:"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=300&auto=format&fit=crop&q=80",
+status:"online"
+},
+
+{
+name:"Michael T.",
+country:"UK",
+age:59,
+flag:"🇬🇧",
+image:"https://images.unsplash.com/photo-1535713875002-d1d0cf377dde?w=300&auto=format&fit=crop&q=80",
+status:"online"
+},
+
+{
+name:"Anna K.",
+country:"Sweden",
+age:56,
+flag:"🇸🇪",
+image:"https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&auto=format&fit=crop&q=80",
+status:"Looking to talk"
+},
+
+{
+name:"Peter J.",
+country:"Netherlands",
+age:61,
+flag:"🇳🇱",
+image:"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80",
+status:"online"
+}
+
+];
+
+
+// CREATE PROFILE CARDS
+const profileGrid = document.getElementById("profile-grid");
+
+profiles.forEach(profile => {
+
+    const statusColor =
+        profile.status === "Looking to talk"
+        ? "bg-amber-100 text-amber-700"
+        : "bg-emerald-100 text-emerald-700";
+
+    const card = document.createElement("div");
+
+    card.className =
+        "profile-card bg-white rounded-xl p-4 border border-slate-200 shadow-sm relative";
+
+    card.innerHTML = `
+
+        <span class="absolute top-3 right-3 text-xs ${statusColor} px-2 py-1 rounded-full">
+            ${profile.status}
+        </span>
+
+        <div class="flex items-center gap-3 mb-3">
+
+            <div class="relative">
+
+                <img
+                    src="${profile.image}"
+                    alt="${profile.name}"
+                    loading="lazy"
+                    class="w-12 h-12 rounded-full object-cover border"
+                >
+
+                <span class="absolute bottom-0 right-0 text-xs">
+                    ${profile.flag}
+                </span>
+
+            </div>
+
+            <div>
+                <h3 class="font-bold text-slate-900 text-sm">
+                    ${profile.name}
+                </h3>
+
+                <p class="text-xs text-slate-500">
+                    ${profile.country} • Age ${profile.age}
+                </p>
+            </div>
+
+        </div>
+
+        <a href="${registrationLink}"
+           class="block w-full text-center mt-2 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 font-semibold text-xs py-2 rounded-lg">
+
+            Start Chat 💬
+
+        </a>
+
+    `;
+
+    profileGrid.appendChild(card);
+
+});
+
+
+// LARGE EXTENSIVE LIST OF LIVE PAYOUTS
+const tickerText = document.getElementById("ticker-text");
+const tickerTime = document.getElementById("ticker-time");
+
+const payoutUsers = [
+    { name: "Grace M.", country: "Kenya 🇰🇪", amount: "Ksh 4,500" },
+    { name: "Amina O.", country: "Nigeria 🇳🇬", amount: "₦32,000" },
+    { name: "Blessing K.", country: "Ghana 🇬🇭", amount: "GH₵ 480" },
+    { name: "Brian K.", country: "Kenya 🇰🇪", amount: "Ksh 8,200" },
+    { name: "Chioma E.", country: "Nigeria 🇳🇬", amount: "₦45,000" },
+    { name: "Mercy A.", country: "Uganda 🇺🇬", amount: "USh 145,000" },
+    { name: "David N.", country: "Tanzania 🇹🇿", amount: "TZS 95,000" },
+    { name: "Esther J.", country: "Kenya 🇰🇪", amount: "Ksh 6,100" },
+    { name: "Oluwaseun B.", country: "Nigeria 🇳🇬", amount: "₦25,000" },
+    { name: "Kofi M.", country: "Ghana 🇬🇭", amount: "GH₵ 620" },
+    { name: "Sharon N.", country: "Kenya 🇰🇪", amount: "Ksh 11,400" },
+    { name: "Emmanuel P.", country: "Uganda 🇺🇬", amount: "USh 210,000" },
+    { name: "Zainab S.", country: "Tanzania 🇹🇿", amount: "TZS 130,000" },
+    { name: "Kelvin O.", country: "Kenya 🇰🇪", amount: "Ksh 5,300" },
+    { name: "Tariq M.", country: "Nigeria 🇳🇬", amount: "₦50,000" },
+    { name: "Abigail D.", country: "Ghana 🇬🇭", amount: "GH₵ 390" },
+    { name: "Vivian C.", country: "South Africa 🇿🇦", amount: "R 850" },
+    { name: "John W.", country: "Kenya 🇰🇪", amount: "Ksh 9,700" }
+];
+
+let currentPayoutIndex = 0;
+
+function showNextPayout() {
+    const user = payoutUsers[currentPayoutIndex];
+    tickerText.innerHTML = `<span class="font-bold text-emerald-400">${user.name}</span> (${user.country}) just cashed out <span class="font-bold text-white">${user.amount}</span>!`;
+    
+    currentPayoutIndex = (currentPayoutIndex + 1) % payoutUsers.length;
+}
+
+// Initial call and rotation every 3.5 seconds
+showNextPayout();
+setInterval(showNextPayout, 3500);
+
+</script>
+
+</body>
+</html>
